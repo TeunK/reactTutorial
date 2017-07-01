@@ -1,10 +1,14 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    background-image: url("https://www.walldevil.com/wallpapers/a51/background-wallpapers-web-images-dvisiondesign-wallpaper-stitched-paper-grey-desktop.jpg");
 }
 
 ol, ul {
     padding-left: 30px;
+}
+
+.background-image{
 }
 
 .board-row:after {
@@ -21,15 +25,15 @@ ol, ul {
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 80px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    height: 127px;
+    width: 127px;
 }
 
 .square:focus {
@@ -41,10 +45,91 @@ ol, ul {
 }
 
 .game {
-    display: flex;
-    flex-direction: row;
 }
 
 .game-info {
-    margin-left: 20px;
+}
+
+.t-b {
+    font-weight:bold;
+}
+.cGrn1 {
+    color: green;
+}
+.bGrn1 {
+    background-color: green;
+}
+.cWht {
+    color:white;
+}
+.bWht {
+    background-color:white;
+}
+.mauto {
+    margin:auto;
+}
+.txtc {
+    text-align: center;
+}
+.ps {
+    padding: 10px;
+}
+.ms {
+    margin: 10px;
+}
+.bdrs {
+    border:1px solid #ccc;
+}
+.w100 {
+    width: 100px;
+}
+.w200 {
+    width:200px;
+}
+.w400 {
+    width:400px;
+}
+.w600 {
+    width:600px;
+}
+.w800 {
+    width:800px;
+}
+.w1000 {
+    width:1000px;
+}
+.mtxxl {
+    margin-top:200px;
+}
+.bWhtTrans {
+    background: white;
+}
+.bdr-rs{
+    border-radius: 4px;
+}
+.bdr-rm{
+    border-radius:8px;
+}
+.bdr-rl{
+    border-radius:15px;
+}
+.w100p {
+    box-sizing: border-box;
+    width:100%;
+}
+.w95p {
+    box-sizing: border-box;
+    width:95%;
+}
+.w90p {
+    box-sizing: border-box;
+    width:90%;
+}
+.w80p {
+    box-sizing: border-box;
+    width:80%;
+}
+.w60p {
+    box-sizing: border-box;
+    width:60%;
 }
